@@ -1,6 +1,8 @@
-class file1:
+class parant:
     def a(self):
-        print("hello from file1")
-    def b(self):
-        print("hello from file1")
+        print("helo from dunder-1")
 
+def main():
+    print("helo from main _logic")
+
+main()

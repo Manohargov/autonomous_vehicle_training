@@ -1,6 +1,9 @@
-from file1 import *
+class parant:
+    def a(self):
+        print("helo from dunder-1")
 
-obj= file1()
-obj.a()
-obj.b()
+def main():
+    print("helo from main _logic")
 
+if __name__=="__main__":
+    main()
